@@ -29,6 +29,12 @@ section{
     gap: 20px;
     padding-left: 40px;
     font-weight: 600;
+    transition: all .4s ease-in-out;
+}
+
+.cwBlock:hover {
+    filter: brightness(130%);
+    transform: scale(1.05);
 }
 
 @media (max-width: 700px) {

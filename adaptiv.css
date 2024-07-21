@@ -1,197 +1,189 @@
-@media (max-width:1000px) {
-    
-    p{
-        font-size: 22px;
-    }
+@media (max-width: 1000px) {
+  p {
+    font-size: 22px;
+  }
 
-    header .familie2{
-        font-size: 22px;
-    }
+  header .familie2 {
+    font-size: 22px;
+  }
 
-    h2{
-        font-size: 28px;
-    }
+  h2 {
+    font-size: 28px;
+  }
 
-    .cardImg{
-        width: 100%;
-    }
+  .cardImg {
+    width: 100%;
+  }
 
-    .desktopP{
-        display: block;
-    }
+  .desktopP {
+    display: block;
+  }
 
-    .pad{
-        display: none;
-    }
+  .pad {
+    display: none;
+  }
 
+  .creators {
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+  }
 
-    .creators{
-        grid-gap: 30px;  
-        grid-template-columns: 1fr 1fr;
-    }
+  .creator {
+    width: 90%;
+    flex-direction: row;
+    gap: 20px;
+  }
 
-    
+  h3 {
+    font-size: 16px;
+  }
+  .auction {
+    background-image: url(img/NFT\ Highlight1000.png);
+  }
 
-    .creator{
-        width: 90%;
-        flex-direction: row;
-        gap: 20px;
-    }
+  .instruction p {
+    font-size: 12px;
+  }
+  .desktop {
+    display: none;
+  }
 
-    h3{
-        font-size: 16px;
-    }
-    .auction{
-        background-image: url(img/NFT\ Highlight1000.png);
+  .subfooter {
+    padding: 40px;
+  }
 
-    }
+  .signUp {
+    background: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
 
+  .footerInput,
+  .footerButton {
+    width: 100%;
+  }
 
-    .instruction p{
-        font-size: 12px;
-    }
-    .desktop{
-        display: none;
-    }
+  .footerItems {
+    grid-template-areas:
+      "a"
+      "b"
+      "c";
+    grid-row-gap: 32px;
+  }
+  footer h2 {
+    margin-bottom: 0;
+  }
 
-    .subfooter{
-        padding: 40px;
-    }
-    
-    .signUp{
-        background: none;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 16px;
-    }
-    
-    .footerInput , .footerButton{
-        width: 100%;
-        border: 1px solid red;
-    }
+  h5 {
+    font-size: 16px;
+  }
 
-    .footerItems{
-        grid-template-areas:"a"
-                            "b"
-                            "c";
-        grid-row-gap: 32px;
-    }
-    footer h2{
-        margin-bottom: 0;
-    }
-
-    h5{
-        font-size: 16px;
-    }
-
-
-    /* grid-column-gap: 80px; */
+  /* grid-column-gap: 80px; */
 }
 
-@media (max-width:700px) {
+@media (max-width: 700px) {
+  .desktopM {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
 
-    .desktopM{
-        display: block;
-    }
-    .mobile{
-        display: none;
-    }
+  p {
+    font-size: 16px;
+  }
 
-    p{
-        font-size: 16px;
-    }
+  .desktop {
+    margin: 20px auto 0 auto;
+  }
 
-    .desktop{
-        margin: 20px auto 0 auto;
-    }
+  header {
+    flex-wrap: wrap;
+  }
 
-    header{
-        flex-wrap: wrap;
-    }
-    
-    .mainText{
-        flex-basis: 100%;
-    }
-    .mainCard{
-        flex-basis: 100%;
-    }
+  .mainText {
+    flex-basis: 100%;
+  }
+  .mainCard {
+    flex-basis: 100%;
+  }
 
-    .categories{
-        grid-template-columns: 40vw 40vw;
-    }
-    
-    .info .title{
-        text-align: left;
+  .categories {
+    grid-template-columns: 40vw 40vw;
+  }
 
-    }
+  .info .title {
+    text-align: left;
+  }
 
-    .nfts{
-        display: flex;
-        flex-wrap: wrap;
-    }
+  .nfts {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-    .familie2{
-        font-size: 12px;
-    }
+  .familie2 {
+    font-size: 12px;
+  }
 
-    .creators{
-        gap: 15px;  
-        grid-template-columns: 1fr;
-        
-    }
+  .creators {
+    gap: 15px;
+    grid-template-columns: 1fr;
+  }
 
-    .creator{
-        flex-direction: column;
-    }
+  .creator {
+    flex-direction: column;
+  }
 
-    .auction{
-        background-image: url(img/NFT\ Highlight700.png);
+  .auction {
+    background-image: url(img/NFT\ Highlight700.png);
+  }
 
-    }
+  .auctionItems {
+    display: grid;
+    grid-template-areas:
+      "a"
+      "b"
+      "c";
+  }
 
-    .auctionItems {
-        display: grid;
-        grid-template-areas:"a"
-                            "b"
-                            "c";
-    }
-    
-    .auctionItems h2{
-        grid-area: a;
-    }
-    
-    .auctionItems button{
-        grid-area: c;
-    }
-    
-    .auctionTimer{
-        /* width: 100%;g  */
-        grid-area: b;
-    }
-    
-    .instructionItems{
-        flex-wrap: wrap;
-    }
+  .auctionItems h2 {
+    grid-area: a;
+  }
 
-    .instruction{
-        flex-direction: row;
-        text-align: left;
-    }
+  .auctionItems button {
+    grid-area: c;
+  }
 
-    .instruction img{
-        width: 115%;
-    }
+  .auctionTimer {
+    /* width: 100%;g  */
+    grid-area: b;
+  }
 
-    .subfooter{
-        padding: 0;
-        background: none;
-        grid-template-areas: "a "
-                            " b"
-                            "c";
-    }
+  .instructionItems {
+    flex-wrap: wrap;
+  }
 
-    .pinkBut{
-        width: 100%;
-    }
+  .instruction {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .instruction img {
+    width: 115%;
+  }
+
+  .subfooter {
+    padding: 0;
+    background: none;
+    grid-template-areas:
+      "a "
+      " b"
+      "c";
+  }
+
+  .pinkBut {
+    width: 100%;
+  }
 }
 

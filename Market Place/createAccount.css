@@ -20,6 +20,18 @@
     cursor: pointer;
 }
 
+.nftsPage.close {
+    display: none;
+}
+
+.trends.close {
+    display: none;
+}
+
+.trends {
+    padding-bottom: 80px;
+}
+
 
 
 
